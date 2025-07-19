@@ -1,5 +1,8 @@
 {
   "routes":  [
-    {"src": "/(.*)", "dest": "/"}
+    {"src": "/", "dest": "/"},
+    {"src": "/about", "dest": "/about"},
+    {"src": "/portfolio", "dest": "/portfolio"},
+    {"src": "/contact", "dest": "/contact"}
   ]
 }
