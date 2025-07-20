@@ -14,7 +14,7 @@ export default function TransitionProvider({ children }) {
                     exit={{ height: "200vh" }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                 />
-                <motion.div className="fixed text-white text-6xl w-fit h-fit top-0 left-0 right-0 m-auto bottom-0 cursor-default z-50"
+                <motion.div className="fixed text-white text-6xl w-fit h-fit top-0 left-0 right-0 m-auto bottom-0 cursor-default z-40"
                     initial={{ opacity: 1 }}
                     animate={{ opacity: 0 }}
                     exit={{ opacity: 0 }}

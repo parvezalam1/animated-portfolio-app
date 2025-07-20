@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { usePathname } from 'next/navigation'
-const mainUrl="https://animated-portfolio-two-plum.vercel.app";
 const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About" },
@@ -97,7 +96,7 @@ export default function Navbar() {
            variants={listVarients}
             initial="closed"
             animate="opened"
-             className='absolute top-0 left-0 w-full h-full bg-black flex flex-col justify-center items-center gap-3 z-50'>
+             className='absolute top-0 left-0 w-full h-full bg-black flex flex-col justify-center items-center gap-3 z-40'>
             {
                 links.map((link) =>
                 <motion.div key={link.title} variants={listItemsVarients}
